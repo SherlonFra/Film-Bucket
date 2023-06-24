@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/about.css">
+  <title>About</title>
+</head>
+
+<!--Nav bar-->
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiar">
+    <div class="container-fluid" id="navigation">
+      <div data-bs-target="#sidebar" data-bs-toggle="collapse" class="container position-absolute top-0 start-0"
+        id="icon-menu"><svg id="Icon_metro-menu" data-name="Icon metro-menu" xmlns="http://www.w3.org/2000/svg"
+          width="30" height="25" viewBox="0 0 42.018 39.585">
+          <path id="Icon_metro-menu-2" data-name="Icon metro-menu"
+            d="M6.427,49.868H48.444v-6.6H6.427v6.6Zm0-16.494H48.444v-6.6H6.427v6.6Zm0-23.091v6.6H48.444v-6.6H6.427Z"
+            transform="translate(-6.427 -10.283)" fill="#fff" opacity="0.932" />
+        </svg></div>
+      <a class="navbar-brand" href="/">FILMBUCKET</a>        
+        <div class="container position-absolute top-0 end-0">
+          <a href="/profile">
+          <svg id="Icon_account" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 69 69">
+            <path
+              d="M35.5,3A32.5,32.5,0,1,0,68,35.5,32.512,32.512,0,0,0,35.5,3Zm0,9.75a9.75,9.75,0,1,1-9.75,9.75A9.737,9.737,0,0,1,35.5,12.75Zm0,46.15A23.4,23.4,0,0,1,16,48.435c.1-6.468,13-10.01,19.5-10.01a32.848,32.848,0,0,1,7.634,1.086c5.638,1.4,11.8,4.468,11.866,8.924A23.4,23.4,0,0,1,35.5,58.9Z"
+              transform="translate(-3 -3)" fill="#fff" style="mix-blend-mode:lighten;isolation:isolate">
+          </svg>
+        </a>
+        </div>
+    </div>
+    </div>
+  </nav>
+</header>
+
+<!--Sidebar menu-->
+<div class="container-fluid">
+  <div class="row flex-nowrap">
+    <div class="col-auto px-0 " id="content">
+      <div id="sidebar" class="collapse collapse-horizontal border-end">
+        <div id="sidebar-nav" class="list-group border-0 rounded-0  text-sm-center min-vh-100">
+          <ul class="list-unstyled px-2">
+            <li class=""><a href="/" class="text-decoration-none">Home</a></li>
+            <hr class="h-color">
+            <li class=""><a href="/topmovies" class="text-decoration-none">Top Rated Movies</a></li>
+            <hr class="h-color">
+            <li class=""><a href="/toptvshows" class="text-decoration-none">Top Rated Tv-Shows</a></li>
+            <hr class="h-color">
+            <li class=""><a href="/awards" class="text-decoration-none">Awards</a></li>
+            <hr class="h-color">
+            <li class=""><a href="/trivia" class="text-decoration-none">Trivia</a></li>
+            <hr class="h-color">
+            <li class=""><a href="/about" class="text-decoration-none">About Us</a></li>
+            <hr class="h-color">
+            <li class=""><a href="/search" class="text-decoration-none">Search</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<body>
+  <!--Page Content-->
+  <div class="overlay">
+    <!--Overlay div used to create opacity layer between slide menu and page content *See styling in CSS file under Slide Menu styling* -->
+    <div class="wrapper">
+
+      <div class="first-row">
+
+        <div class="first-column">
+          <img class="headshots" id="first-photo" src="/assets/IMG_7264.jpeg" alt="Photo of Barkat">
+          <div class="bio">Barkat</div>
+        </div>
+
+        <div class="second-column">
+          <div class="text">My name is Barkat, I am 22 years old. I was born in this cute city called Chandigarh in
+            India. I am building my career as a full-stack web developer and hope to be an aspiring project manager one
+            day. In our project Film-Bucket, I have created the Movie and Tv-show information page as well as the Actor
+            information page for all the actors. All this information has been retrieved from the Online Movie Database
+            API Dojo. I have also worked on the backend to build a database for storing information of the Users and the
+            Trivia Page. Hope you enjoy our Project!
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+
+
+      <div class="second-row">
+        <div class="first-column">
+          <img class="headshots" id="second-photo" src="/assets/selfie.jpg" alt="Photo of Stefan">
+          <div class="bio">Stefan</div>
+        </div>
+
+        <div class="second-column">
+          <div class="text">Hi, my name is Stefan Ward I am from the tiny island of Barbados. I am a system
+            Administrator and recently decided to career pivot to become a full-stack web developer. My contributions to
+            the Film Bucket website were the home page, about us page and the movie trivia page.</div>
+        </div>
+      </div>
+      <br>
+
+
+      <div class="third-row">
+
+        <div class="first-column">
+          <img class="headshots" id="third-photo" src="/assets/sherlon.jpeg" alt="Photo of Sherlon">
+          <div class="bio">Sherlon</div>
+        </div>
+
+        <div class="second-column">
+          <div class="text">Hello, I am Sherlon Frater, from Jamaica currently residing in Toronto, Canada. An aspiring
+            UI/UX designer and lead designer of multiple team projects. In our project Film Bucket, I designed and
+            developed the Top Movies, Top TV Shows, Awards and Accounts Page.</div>
+        </div>
+      </div>
+      <br>
+
+
+
+    </div>
+
+
+    <footer class="text-white text-center text-small">
+      <p class="mb-1">&copy; 2023 Copyright Film Bucket</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a class="text-white text-decoration-underline" href="/">Home</a></li>
+        <li class="text-white list-inline-item"><a class="text-white text-decoration-underline" href="/about">About Us</a></li>
+        <li class="text-white list-inline-item"><a class="text-white text-decoration-underline" href="/trivia">Trivia</a></li>
+      </ul>
+  </footer>
+  </div>
+
+
+
+
+
+
+  <script src="/jquery.js"></script>
+  <script src="/Controller/about.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

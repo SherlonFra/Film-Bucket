@@ -1,0 +1,280 @@
+html{
+    height: auto;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:linear-gradient(#F4442E,#2B0504);
+    color: white;
+    padding-top:60px;
+}
+
+/*Nav bar styling*/
+
+:root {
+    --primary: #401414;
+    --secondary: #BA392B;
+    --on-primary: #CE2B23;
+    --on-secondary: #F4442E;
+}
+
+
+#Icon_metro-menu{
+    margin-top: 50%;
+    cursor: pointer;
+}
+#Icon_account{
+    margin-top:30%;
+    margin-left:5%;
+    cursor: pointer;
+}
+
+div.container{
+    max-width: fit-content;
+    height: 60px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#navigation{
+   background-color: var(--primary);
+   z-index: 5;
+   position: fixed;
+   top: 0;
+   height: 3.5rem;
+}
+
+
+.list-group-item{
+    background-color: var(--on-secondary);
+}
+
+.navbar{
+    padding: 0;
+}
+a.navbar-brand{
+    margin-left: 4%;
+    color: white;
+    opacity: 80%;
+}
+a.navbar-brand:hover{
+    color: var(--on-secondary);
+}
+
+form.d-flex{
+    margin-right: 30%;
+    width: 40%;
+}
+input.form-control.mt-2.mb-2.d-flex{
+    border-radius: 1.1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button.btn.d-flex{
+    height: fit-content;
+    background-color: var(--on-primary);
+    border-radius: 1.1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*Slide Menu Styling*/
+
+#content{
+    background-color: var(--on-secondary);
+    z-index: 3;
+    position: fixed;
+}
+
+.overlay{
+    height: auto;
+    width: 100%;
+    z-index: 2;
+}
+
+#sidebar-nav {
+    width: 200px;
+    border-style: none; 
+    
+}
+
+#sidebar{
+    height: auto;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}
+
+.list-unstyled{
+    margin-top:20px ;
+}
+
+.h-color{
+    height:0px;
+    border:none;
+    border-top:1px solid black;
+}
+
+/*Footer styling*/
+
+footer{
+    background-color: #663D3A;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin: auto;
+
+}
+
+#first-photo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Responsive Layout */
+/* Default (Laptop and Desktop sizes) */
+
+
+
+.wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+         
+    }
+
+.first-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 40px;
+        
+        
+    }
+.second-row {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        column-gap: 20px;
+        
+    }
+.third-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 40px;
+        
+}   
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.headshots {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+} 
+
+
+
+
+
+/* Medium Screens */
+@media (min-width: 576px) and (max-width: 1024px) {
+
+.headshots {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    }
+
+.outer-container {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+         
+    }
+.first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+    }
+.second-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+    }
+.third-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+    }
+
+}
+
+
+/* Samll Screens */
+@media screen and (max-width: 575px) {
+    
+.outer-container {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+             
+        }
+.first-row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            
+        }
+.second-row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            
+        }
+.third-row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            
+        }
+    
+.headshots {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    
+}
+
+  
